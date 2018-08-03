@@ -218,6 +218,8 @@ code.language-yaml {
 
 <h2 class="mume-header" id="1-%E6%9C%AC%E6%AC%A1%E6%95%B0%E6%8D%AE%E9%9B%86demo">1. 本次数据集demo</h2>
 
+<h3 class="mume-header" id="%E6%8E%A8%E8%8D%90%E7%BB%99%E5%8D%95%E4%B8%AA%E7%94%A8%E6%88%B7">推荐给单个用户</h3>
+
 <ul>
 <li>1.1 训练数据
 <ul>
@@ -229,7 +231,7 @@ code.language-yaml {
 </li>
 <li>1.2 模型结果
 <ul>
-<li>见“recom.xlsx”</li>
+<li>见表xibu.recom_result_pos（IP：<a href="http://eagleservice01.wmcloud-dev.com/">eagleservice01.wmcloud-dev.com</a>）</li>
 <li>推荐精度
 <ul>
 <li>预测结果和用户实际购买行为之间计算RMSE : 0.76</li>
@@ -271,6 +273,42 @@ code.language-yaml {
 <ul>
 <li>存在问题：demo数据量较少，通过增大数据量，模型效果应有提升。</li>
 </ul>
+<h3 class="mume-header" id="%E6%8E%A8%E8%8D%90%E7%BB%99%E5%AE%A2%E7%BE%A4">推荐给客群</h3>
+
+<ul>
+<li>模型结果
+<ul>
+<li>见表xibu.recom_result_pos_group（IP：<a href="http://eagleservice01.wmcloud-dev.com/">eagleservice01.wmcloud-dev.com</a>）</li>
+<li>客群对应关系</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>userid</th>
+<th>客群</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>announcementStrategy</td>
+</tr>
+<tr>
+<td>2</td>
+<td>cashFlowStrategy</td>
+</tr>
+<tr>
+<td>3</td>
+<td>momentumStrategy</td>
+</tr>
+<tr>
+<td>4</td>
+<td>limitStrategy</td>
+</tr>
+</tbody>
+</table>
 <h2 class="mume-header" id="2-%E7%AE%97%E6%B3%95%E4%BB%8B%E7%BB%8D">2. 算法介绍</h2>
 
 <ul>
@@ -344,16 +382,26 @@ code.language-yaml {
 <h2 class="mume-header" id="1-%E6%9C%AC%E6%AC%A1%E6%95%B0%E6%8D%AE%E9%9B%86%E5%B1%95%E7%A4%BA">1. 本次数据集展示</h2>
 
 <ul>
-<li>这部分模型还没做</li>
+<li>1.1 训练数据
+<ul>
+<li>用户生命周期标签(三个月数据)<br>
+<br><br></li>
+</ul>
+</li>
+<li>1.2 模型结果
+<ul>
+<li>见表xibu.loss_predict（IP：<a href="http://eagleservice01.wmcloud-dev.com/">eagleservice01.wmcloud-dev.com</a>）</li>
+</ul>
+</li>
 </ul>
 <h2 class="mume-header" id="2-%E7%AE%97%E6%B3%95%E4%BB%8B%E7%BB%8D-1">2. 算法介绍</h2>
 
 <ul>
-<li>生命周期分类
+<li>生命周期分类<br>
+<img src="xibu_demo_files/a.png" alt="用户生命周期">
 <ul>
-<li><img src="xibu_demo_files/a.png" alt="用户生命周期"></li>
-<li>运用RFM(Recency,Frequency,Monetary)等模型进行合理的用户细分</li>
-<li><img src="xibu_demo_files/RFM.png" alt="RFM"></li>
+<li>运用RFM(Recency,Frequency,Monetary)等模型进行合理的用户细分<br>
+<img src="xibu_demo_files/RFM.png" alt="RFM"></li>
 </ul>
 </li>
 <li>流失用户预警

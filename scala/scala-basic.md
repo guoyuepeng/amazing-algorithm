@@ -105,4 +105,55 @@ val multiplier = (i:Int) => i * factor
 - range() 方法来生成一个区间范围内的数组
 
 ## 集合(Collection)
-- 
+- scala.collection.immutable  scala.collection.mutable 
+- 可变集合：可以修改，添加，移除一个集合的元素
+- 不可变集合：永远不会改变
+- 类型
+    - List(列表)
+        - 所有元素类型都相同
+        - 列表不可变
+        - 列表定义
+        ```
+        // 字符串列表
+        val site: List[String] = List("Runoob", "Google", "Baidu")
+
+        // 整型列表
+        val nums: List[Int] = List(1, 2, 3, 4)
+
+        // 空列表
+        val empty: List[Nothing] = List()
+
+        // 二维列表
+        val dim: List[List[Int]] =
+        List(
+            List(1, 0, 0),
+            List(0, 1, 0),
+            List(0, 0, 1)
+        )
+
+        ```
+        - 也可以写成
+        ```
+
+        // 字符串列表
+        val site = "Runoob" :: ("Google" :: ("Baidu" :: Nil))
+
+        // 整型列表
+        val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
+
+        // 空列表
+        val empty = Nil
+
+        // 二维列表
+        val dim = (1 :: (0 :: (0 :: Nil))) ::
+                (0 :: (1 :: (0 :: Nil))) ::
+                (0 :: (0 :: (1 :: Nil))) :: Nil
+
+        ```
+        - 基本操作：head,tail,isEmpty
+        - 连接列表：List.concat() 或者 ::
+    - Set(集合)
+    - Map(映射)
+    - 元组
+    - Option
+    - Iterator(迭代器)
