@@ -152,8 +152,77 @@ val multiplier = (i:Int) => i * factor
         ```
         - 基本操作：head,tail,isEmpty
         - 连接列表：List.concat() 或者 ::
+
     - Set(集合)
+        - 没有重复对象
+        - 分为可变（scala.collection.mutable.Set）和不可变(默认，scala.collection.immutable.Set)
+
     - Map(映射)
+        - key，value
+        - 键是唯一的
+        - 也叫哈希表(Hash tables)
+        - 可变(scala.collection.mutable.Map)，不可变(默认)
+
     - 元组
+        - 不可变
+        - 可以包含不同类型的元素
+
     - Option
+    
     - Iterator(迭代器)
+        - 不是一个集合，是一种用于访问集合的方法
+        - 基本操作：next、hasNext
+        - it.next()返回迭代器的下一个元素，并且更新迭代器的状态
+          it.hasNext()检测集合中是否还有元素
+
+## 类和对象
+- 类是抽象的，不占用内存；对象是具体的，占用内存
+- 使用new关键字来创建类的对象
+- 一个scala源文件可以有多个类
+- 继承
+    - 使用extends关键字来继承一个类
+    - 重写一个非抽象方法必须使用override修饰符
+    - 只有主构造函数才可以往基类的构造函数里面写参数
+    - 在子类中重写超类的抽象方法时，不需要使用override关键字
+    - 只允许继承一个父类
+- 单例对象
+    - 一个类只有一个对象实例
+    - 关键字 object   
+    - 伴生对象(companion object):单例对象与某个类共享同一个名称，可以互相访问其私有成员
+
+## Trait(特征)
+- 相当于Java的接口
+- 可以定义属性和方法的实现
+- Trait可以继承多个，实现了多重继承
+- 关键字trait
+
+## 模式匹配
+- 关键字 case
+- match 表达式通过以代码编写的先后次序尝试每个模式来完成计算，只要发现有一个匹配的case，剩下的case不会继续匹配
+- 样例类:case class
+
+## 正则表达式
+- 包：Regex
+- pattern findFirstIn str
+
+## 异常处理
+- 可以通过抛出异常的方式终止代码的运行：throw
+- 捕获异常：catch字句是按次序捕捉的。因此，在catch字句中，越具体的异常越要靠前，越普遍的异常越靠后
+          借用了模式匹配的思想来做异常的匹配
+- 最普遍的异常：Throwable
+- finally：不管是正常处理还是有异常发生时都需要执行的步骤
+
+
+## 提取器(Extractor)
+- 提取器是从传递给它的对象中提取出构造该对象的参数。
+
+
+## 文件IO
+- java.io.File
+- 新建文件，读取用户输入，读取文件内容。。。
+
+## “_"的含义
+- https://my.oschina.net/joymufeng/blog/863823
+- 导入包时通配符
+- 类成员默认值
+- 访问tuple元素
