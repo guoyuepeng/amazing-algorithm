@@ -1,0 +1,4 @@
+- pipeline
+- hyperparameter tunning
+- WLS vs L-BFGS
+- 生存模型 ： AFTSurvivalRegression
