@@ -35,7 +35,9 @@ class UserBasedCF(object):
 
     @staticmethod  # 静态方法,类可以直接调用
     def loadfile(filename):
+
         ''' load a file, return a generator. '''
+
         fp = open(filename, 'r')
         for i, line in enumerate(fp):
             '''
@@ -51,7 +53,9 @@ class UserBasedCF(object):
         print('load %s succ' % filename, file=sys.stderr)
 
     def generate_dataset(self, filename, pivot=0.7):
+
         ''' load rating data and split it to training set and test set '''
+
         trainset_len = 0
         testset_len = 0
 
@@ -74,6 +78,7 @@ class UserBasedCF(object):
     def calc_user_sim(self):
 
         ''' calculate user similarity matrix '''
+
         # build inverse table for item-users : 先建立用户-物品倒排表
         # key=movieID, value=list of userIDs who have seen this movie
         print('building movie-users inverse table...', file=sys.stderr)
@@ -129,7 +134,9 @@ class UserBasedCF(object):
                simfactor_count, file=sys.stderr)
 
     def recommend(self, user):
+
         ''' Find K similar users and recommend N movies. '''
+
         K = self.n_sim_user
         N = self.n_rec_movie
         rank = dict()
@@ -149,6 +156,7 @@ class UserBasedCF(object):
     def evaluate(self):
 
         ''' print evaluation result: precision, recall, coverage and popularity '''
+
         print('Evaluation start...', file=sys.stderr)
 
         N = self.n_rec_movie
