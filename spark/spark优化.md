@@ -25,3 +25,4 @@ https://tech.meituan.com/spark-tuning-pro.html
   - 多次使用的RDD进行持久化
   - 使用filter之后进行coalesce
   - 广播大变量
+  - 适当增加 shuffle partition 个数，减少每个task的数据量
