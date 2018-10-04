@@ -26,3 +26,19 @@ https://tech.meituan.com/spark-tuning-pro.html
   - 使用filter之后进行coalesce
   - 广播大变量
   - 适当增加 shuffle partition 个数，减少每个task的数据量
+
+  1. shuffle partition 个数调优
+  - 设置过小可能造成：Spill,OOM
+  - 设置过大可能造成：更长的任务调度时间，更多IO请求，更多小文件输出
+  - 同一个Shuffle Partition个数无法适应所有的Stage
+  2. Spark Sql Join选择策略
+  - Spark SQL在Planning阶段通过Join输入的大小来判断使用BroadcastHashJoin或者SortMergeJoin/HashShuffleJoin。一个复杂的Join可能使用中间结果作为输入。当Spark SQL在Planning阶段无法获取正确的Join输入大小时，导致无法选择最优的Join策略。
+  3. Join中的数据倾斜
+  - 数据倾斜意味着某些分区中的数据大小明显大于其他分区
+  - 数据倾斜是Join性能变差的常见原因
+  - 目前常见的手动解决倾斜的方法：
+	- 增加Shuffle Partition个数
+	- 增大BroadcastJoin阈值
+	- 为倾斜的Key增加前缀特殊处理
+
+https://blog.csdn.net/fl63zv9zou86950w/article/details/79049280
