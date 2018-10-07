@@ -5,6 +5,7 @@ import sklearn.datasets
 import sklearn.linear_model
 
 def plot_decision_boundary(model, X, y):
+
     # Set min and max values and give it some padding
     x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
     y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
@@ -14,7 +15,7 @@ def plot_decision_boundary(model, X, y):
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
     # Predict the function value for the whole grid
     # ravel：将多维数组降为一维
-    # np.c_:按行连接两个矩阵
+    # np.c_:按行连接两个矩阵,把两矩阵左右相加
     Z = model(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     # Plot the contour(等高线) and training examples
@@ -23,8 +24,6 @@ def plot_decision_boundary(model, X, y):
     plt.xlabel('x1')
     # np.squeeze:从数组的形状中删除单维度条目，即把shape中为1的维度去掉
     plt.scatter(X[0, :], X[1, :], c=np.squeeze(y), cmap=plt.cm.Spectral)
-    plt.show()
-    
 
 def sigmoid(x):
     """
