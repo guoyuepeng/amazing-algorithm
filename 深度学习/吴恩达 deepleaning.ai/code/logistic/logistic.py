@@ -20,7 +20,7 @@ def initialize_with_zeros(dim):
     w -- initialized vector of shape (dim, 1)
     b -- initialized scalar (corresponds to the bias)
     """
-    
+
     ### START CODE HERE ### (≈ 1 line of code)
     w = np.zeros((dim, 1))
     b = 0
@@ -29,6 +29,29 @@ def initialize_with_zeros(dim):
     assert(w.shape == (dim, 1))
     assert(isinstance(b, float) or isinstance(b, int))
     
+    return w, b
+
+
+def initialize_randomly(dim):
+    """
+    This function creates a vector randomly of shape (dim, 1) for w and initializes b
+
+    Argument:
+    dim -- size of the w vector we want (or number of parameters in this case)
+
+    Returns:
+    w -- initialized vector of shape (dim, 1)
+    b -- initialized scalar (corresponds to the bias)
+    """
+
+    ### START CODE HERE ### (≈ 1 line of code)
+    w = np.random.randn(dim,1) * 0.01  ## 权重w一般设置为很小的数，因为如果权重太大，激活函数(如tanh)斜率会很小，学习速率会很慢
+    b = 0
+    ### END CODE HERE ###
+
+    assert (w.shape == (dim, 1))
+    assert (isinstance(b, float) or isinstance(b, int))
+
     return w, b
 
 # GRADED FUNCTION: sigmoid
@@ -200,7 +223,7 @@ def predict(w, b, X):
 
 def model(X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate = 0.5, print_cost = False):
     """
-    Builds the logistic regression model by calling the function you've implemented previously
+    Builds the logistic regression model
     
     Arguments:
     X_train -- training set represented by a numpy array of shape (num_px * num_px * 3, m_train)
@@ -248,17 +271,54 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate
     
     return d
 
+def parameter_tunning(train_set_x, train_set_y, test_set_x, test_set_y):
+
+    learning_rates = [0.01, 0.001, 0.0001]
+    models = {}
+    for i in learning_rates:
+        print("learning rate is: " + str(i))
+        models[str(i)] = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations=1500, learning_rate=i,
+                               print_cost=False)
+        print('\n' + "-------------------------------------------------------" + '\n')
+
+    for i in learning_rates:
+        plt.plot(np.squeeze(models[str(i)]["costs"]), label=str(models[str(i)]["learning_rate"]))
+
+    plt.ylabel('cost')
+    plt.xlabel('iterations')
+
+    legend = plt.legend(loc='upper center', shadow=True)
+    frame = legend.get_frame()
+    frame.set_facecolor('0.90')
+    plt.show()
+
 
 def main():
     
     # Loading the data (cat/non-cat)
     train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
+    # Reshape the datasets such that each example is now a vector of size (num_px * num_px * 3, 1)
     train_set_x_flatten = train_set_x_orig.reshape(train_set_x_orig.shape[0], -1).T
     test_set_x_flatten = test_set_x_orig.reshape(test_set_x_orig.shape[0], -1).T
+    # "Standardize" the data
     train_set_x = train_set_x_flatten/255.
     test_set_x = test_set_x_flatten/255.
-    d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations = 2000, 
+
+    '''
+    The main steps for building a Neural Network are:
+    1. Define the model structure (such as number of input features) 
+    2. Initialize the model's parameters
+    3. Loop:
+        - Calculate current loss (forward propagation)
+        - Calculate current gradient (backward propagation)
+        - Update parameters (gradient descent)
+    '''
+
+    d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations = 500,
                 learning_rate = 0.005, print_cost = True)
+
+    # parameter tunning : learning_rate
+    parameter_tunning(train_set_x, train_set_y, test_set_x, test_set_y)
     
 
 if __name__ == '__main__':

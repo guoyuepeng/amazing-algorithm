@@ -1,0 +1,7 @@
+1. 基础
+- 验证集和测试集come from same distribution，也可以不要测试集
+- Bias and Variance
+  High Bias:underfitting -- bigger network
+  High Variance:overfitting -- more data,regularization
+  bias-variance trade-off
+- L1正则可以起到特征选择的作用
