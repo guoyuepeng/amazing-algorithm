@@ -5,6 +5,9 @@ import pandas as pd
 import os
 print(os.getcwd())
 
+
+
+
 if __name__ == '__main__':
 
     ratings = pd.read_table("../../../dataset/ml-1m/ratings.dat", sep="::", header=None,
