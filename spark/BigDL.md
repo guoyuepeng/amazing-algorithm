@@ -1,0 +1,3 @@
+- BigDL:基于spark的深度学习框架
+  - CPU、纯分布式(SPARK)
+  - MKL(数学库)+多线程+SPARK
