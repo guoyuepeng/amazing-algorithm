@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a11fecb3-ed71-4d03-b43b-b0a187b79ba5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/MovieLens-RecSys-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/MovieLens-RecSys-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/MovieLens-RecSys-master/itemcf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/MovieLens-RecSys-master/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/MovieLens-RecSys-master/usercf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/Recommend System.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/itemcf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/itemiuf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/itemnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/lfm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/usercf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter2/useriif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter4/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/chapter4/basic_tag_rec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/bookmark_tags.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/bookmarks.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/tags.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/user_contacts-timestamps.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/user_contacts.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/user_taggedbookmarks-timestamps.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/delicious-2k/user_taggedbookmarks.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/artists.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/tags.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/user_artists.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/user_friends.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/user_taggedartists-timestamps.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/lastfm-2k/user_taggedartists.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-1m/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-1m/data_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-1m/movies.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-1m/ratings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-1m/users.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-latest-small/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-latest-small/links.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-latest-small/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-latest-small/ratings.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/data/ml-latest-small/tags.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/util/delicious_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/util/metric.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/util/movielen_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/util/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/RecSys-master/推荐系统实践.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/douban-recommender-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/douban-recommender-master/bash/submit.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/douban-recommender-master/data/data.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/douban-recommender-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/douban-recommender-master/src/main/scala/com/colobu/douban/recommender/DoubanRecommender.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/Keras.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/Keras.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/Keras.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/Keras.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/Keras.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/mkdocs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/activations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/callbacks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/constraints.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/datasets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/examples.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/initializations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/advanced_activations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/containers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/convolutional.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/core.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/embeddings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/noise.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/normalization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/layers/recurrent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/objectives.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/optimizers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/preprocessing/image.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/preprocessing/sequence.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/preprocessing/text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/regularizers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/docs/sources/utils/visualization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/SimpleNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/TempRecSys .py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/TempRecSys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/cifar10_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/console.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/decodeDoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/imdb_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/kaggle_otto_nn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/lstm_text_generation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/mnist_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/mnist_irnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/mnist_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.cos.batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.cos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.maxdoty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.mixedmembership.max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.mixedmembership.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens100k.mixedmembership_singleitemmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens1M.cos - Copy (2).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens1M.cos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieLens1M.hidden.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movielens_100K.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/movieslensDSSM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/out.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/reuters_autoEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/reuters_factorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/reuters_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/reuters_mlp_using_factors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/skipgram_word_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRec - Copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRecTest.nolstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRecTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRecTest_nouser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRec_nouser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRec_nouser_no_seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/examples/tempRecomnedation.batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/callbacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/constraints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/cifar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/cifar10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/cifar100.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/data_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/imdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/datasets/reuters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/initializations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/advanced_activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/containers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/convolutional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/noise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/normalization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/layers/recurrent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/objectives.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/optimizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/preprocessing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/preprocessing/image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/preprocessing/sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/preprocessing/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/regularizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/dot_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/generic_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/io_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/np_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/utils/theano_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/wrappers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/keras/wrappers/scikit_learn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/keras/test_activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/keras/test_constraints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/test_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/test_graph_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/test_loss_weighting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/test_regularizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/auto/test_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_autoencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_callbacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_constraints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_dot_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_masked_recurrent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_save_weights.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/keras-recommendation-master/keras-master/tests/manual/check_wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/assets/IMG_6242_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/assets/loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/assets/model.001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/assets/text_cnn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/ml-1m.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/movie_recommender-master/movie_recommender.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/circle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/examples/BPMF_MCMC_correct_wrong_comparison.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/examples/als_with_movie_lens_1m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/examples/bpmf_with_movie_lens_1m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/examples/compare_pmf_bpmf.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/examples/pmf_with_movie_lens_1m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/als.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/bpmf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/pmf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_als.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_bpmf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_data/ml_100k_ratings.pkl.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_data/ml_100k_ratings_sample_1k.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_data/ml_1m_ratings_sample_1k.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_pmf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/tests/test_validation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/utils/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/utils/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/recommend/utils/validation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master (1)/recommend-master/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/CbcfService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/CommunityIbcfService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/InventoryIbcfService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/InventoryPortraitCleanService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/UserPortraitAttenuationService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/UserUbcfService.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/community/CommunityIBCF.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/extract/AccessLogToKafka.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/inventory/InventoryIBCF.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/inventory/InventoryPortraitClean.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/inventory/PropertyInventoryIndex.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/user/UserPortrait.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/user/UserPortraitAttenuation.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/scripts/user/UserUbcf.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/DebugUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/JavaJsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/PropertyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/mysql/JavaMysqlClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/parse/ParseMobileAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/common/util/parse/ParseMobileToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/hadoop/hive/HiveClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/service/Conf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/service/property/PropertyInventoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/service/property/model/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/java/com/angejia/dw/service/user/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/resources/conf_dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/resources/conf_online.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/JsonUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/ListenerFile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/RegexUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/ScFileUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/ScriptUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/common/util/mysql/MysqlClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/hbase/HBaseClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/hdfs/HDFSClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/hdfs/HDFSClientTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/kafka/KafkaConsumer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/kafka/KafkaProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/spark/CollaborativeFiltering.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/hadoop/spark/CollaborativeFilteringTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/logs/UbaAppActionLogStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/logs/UbaWebActionLogStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/logs/UbaWebVisitLogStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/Conf.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/IBCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/UBCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/community/CommunityIBCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/extract/ExtractFileToKafka.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/InventoryIBCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/InventoryIBCFspark.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/InventoryItemCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/InventoryItemCFBak.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/InventoryItemCFTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/portrait/InventoryPortraitCommon.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/inventory/portrait/MarketingInventoryPortrait.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/UserUBCF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/UserUBCF20160517.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortrait.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitAttenuation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitBrowse.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitCommon.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitFilter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitLikeInventory.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitLinkInventory.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitMemberDemand.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitMemberDemand_20160808.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitNeeds.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitTagConf.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitTags.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitVisitItem.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/main/scala/com/angejia/dw/recommend/user/portrait/UserPortraitrModelState.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/test/scala/com/angejia/dw/recommend/inventory/portrait/InventoryPortraitCommonTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommend-master/src/test/scala/com/angejia/dw/recommend/user/portrait/UserPortraitTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/model/cf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/model/lfm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/model/prank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/workflow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/workflow/cf_workflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/workflow/lfm_workflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/from-github/recommendation-master/workflow/prank_workflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/python/利用用户行为数据/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/python/利用用户行为数据/item_based.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/python/利用用户行为数据/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/python/利用用户行为数据/similarity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../推荐系统/推荐系统实战读书笔记/实践代码/python/利用用户行为数据/user_based.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/2.Improving Deep Netural Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/2.Improving Deep Netural Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/2_layer_NN/2_layer_NN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/2_layer_NN/planar_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/2_layer_NN/testCases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/deep_NN/deep_NN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/deep_NN/dnn_app_utils_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/deep_NN/dnn_utils_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/deep_NN/testCases_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/logistic/datasets/test_catvnoncat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/logistic/datasets/train_catvnoncat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/logistic/logistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/吴恩达 deepleaning.ai/code/logistic/lr_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/深度学习框架实践/tenserflow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习/深度学习框架实践/tenserflow源码.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-959499381">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="23" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="36" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/start.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="789" />
+    <option name="height" value="575" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a11fecb3-ed71-4d03-b43b-b0a187b79ba5" name="Default Changelist" comment="" />
+      <created>1539136556462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539136556462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18276618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.35714287" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
