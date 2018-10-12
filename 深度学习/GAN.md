@@ -1,0 +1,1 @@
+- generator & discriminator 互相对抗
