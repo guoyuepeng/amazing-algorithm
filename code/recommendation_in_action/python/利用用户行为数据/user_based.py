@@ -3,6 +3,10 @@ from operator import itemgetter
 
 
 def UserSimilarity(train):
+    '''
+    :param train: 训练集,用户行为数据,dict(user:items:rui(兴趣))
+    :return: W,dict格式,W[u][v]是用户u和v的余弦相似度
+    '''
     # build inverse table for item:users
     item_users = dict()
     for u, items in train.items():
@@ -31,10 +35,18 @@ def UserSimilarity(train):
     return W
 
 
-def UserCFRecommend(user, train, W):
+def UserCFRecommend(user, train, W, K):
+    '''
+    :param user: 目标用户
+    :param train: 训练集
+    :param W: 相似度dict
+    :param K: 推荐给目标用户最相似的K个用户喜欢的物品
+    :return: dict(key--推荐物品,value--打分)
+    '''
     rank = dict()
+    # 目标用户已有行为产品
     interacted_items = train[user]
-    # 根据第一个域进行排序
+    # 取最相似的K个用户
     for v, wuv in sorted(W[user].items, key=itemgetter(1), reverse=True)[0:K]:
         for i, rvi in train[v].items:
             for i in interacted_items:
