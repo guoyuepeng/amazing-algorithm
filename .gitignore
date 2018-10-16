@@ -7,3 +7,4 @@ code/__pycache__/*
 code/deeplearning.ai/.idea/*
 code/recommendation_in_action/python/利用用户行为数据/.idea/*
 code/recommendation_in_action/python/利用用户行为数据/venv/*
+code/keras/keras-master/

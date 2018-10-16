@@ -1,0 +1,12 @@
+- 由纯python编写
+- 基于Tensorflow、Theano、CNTK后端
+    - 符号计算：先建立计算图，再把数据放进去
+    - 张量：向量、矩阵的推广一般化
+    - data_format,对于100张RGB 16×32的图片
+        - Theano、caffe：(100,3,16,32) -- channels_first
+        - TensorFlow：(100,16,32,3) -- channels_last
+- 支持快速实验
+- 无缝CPU和GPU切换
+- 搭建模型的方式
+    - Sequential：序列式,一系列网络层按顺序构成的栈，只能搭建简单的模型
+    - Functional：函数式，更复杂
