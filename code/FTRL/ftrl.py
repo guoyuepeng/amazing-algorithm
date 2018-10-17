@@ -1,10 +1,12 @@
 # coding=utf-8
 import numpy as np
 
+# https://www.cnblogs.com/zhangchaoyang/articles/6854175.html
 
 class LR(object):
 
-    @staticmethod
+    @staticmethod  # 装饰器
+    # 应用场景:编写类时需要采用很多不同的方式来创建实例，而我们只有一个__init__函数，此时静态方法就派上用场了
     def fn(w, x):
         '''决策函数为sigmoid函数
         '''
@@ -41,7 +43,7 @@ class FTRL(object):
 
     def update(self, x, y):
         self.w = np.array([0 if np.abs(self.z[i]) <= self.l1 else (np.sign(
-            self.z[i]) * self.l1 - self.z[i]) / (self.l2 + (self.beta + np.sqrt(self.n[i])) / self.alpha) for i in xrange(self.dim)])
+            self.z[i]) * self.l1 - self.z[i]) / (self.l2 + (self.beta + np.sqrt(self.n[i])) / self.alpha) for i in range(self.dim)])
         y_hat = self.predict(x)
         g = self.decisionFunc.grad(y, y_hat, x)
         sigma = (np.sqrt(self.n + g * g) - np.sqrt(self.n)) / self.alpha
@@ -86,6 +88,7 @@ class Corpus(object):
 if __name__ == '__main__':
 
     d = 4
+    # 10000条样本
     corpus = Corpus("train.txt", d)
     ftrl = FTRL(dim=d, l1=1.0, l2=1.0, alpha=0.1, beta=1.0)
     ftrl.train(corpus, verbos=False, max_itr=100000, eta=0.01, epochs=100)
