@@ -18,3 +18,7 @@
     - 执行阶段：在会话中执行图中的op
 
 - tensorflow board
+
+2. 教程
+https://zhuanlan.zhihu.com/p/47136826
+https://github.com/open-source-for-science/TensorFlow-Course

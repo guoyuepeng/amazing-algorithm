@@ -1,0 +1,3 @@
+- https://www.tensorflow.org/serving/
+- https://www.jianshu.com/p/2fffd0e332bc
+- https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651747829&idx=1&sn=87ab95052cd48400e85d3c59c1f8b168&chksm=bd12acb88a6525aec945bd8ddd3055e3f16564661a34b042cd0310b949ee7752f5a9e48ae335&scene=21#wechat_redirect
