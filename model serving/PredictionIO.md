@@ -1,2 +1,5 @@
 - 开源的机器学习服务器
-- 
+- http://predictionio.apache.org/index.html
+- https://github.com/apache/predictionio
+- https://www.jianshu.com/p/3cf6ed43a3ff
+- https://www.sohu.com/a/203504539_465229
