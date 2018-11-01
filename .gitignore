@@ -5,6 +5,7 @@
 code/.idea/*
 code/__pycache__/*
 code/deeplearning.ai/.idea/*
-code/recommendation_in_action/python/利用用户行为数据/.idea/*
-code/recommendation_in_action/python/利用用户行为数据/venv/*
+code/recommendation_in_action/python/recommendation_frame/.idea/*
+code/recommendation_in_action/python/recommendation_frame/venv/*i
+code/recommendation_in_action/from-github/RecSys-master/data/*
 code/keras/keras-master/
