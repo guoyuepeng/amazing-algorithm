@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 #coding=utf-8
-'''
-Created on 2018年6月24日
-
-@author: qcymkxyc
-'''
-from chapter2.itemcf import ItemCF
+from use_behavior_data.itemcf import ItemCF
 from collections import defaultdict
 import math
 

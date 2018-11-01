@@ -80,7 +80,7 @@ class UserCF(object):
             @param K:    查找最相似的用户个数
             @return: 商品字典 {商品 : 相似性打分情况}
         """
-        related_items = self.train.get(user,set)
+        related_items = self.train.get(user,set) # 返回指定key的value
         recommmens = dict()
         for v,sim in sorted(self.user_sim_matrix.get(user,dict).items(),
                             key = itemgetter(1),reverse = True)[:K]:

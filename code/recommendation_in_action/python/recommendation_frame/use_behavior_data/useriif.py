@@ -1,19 +1,14 @@
 #!/usr/bin/python3
 #coding=utf-8
-'''
-Created on 2018年6月14日
-
-@author: qcymkxyc
-'''
-
 """
-    Ｕser-IIF算法
+    USER-IIF算法在UserCF的基础上考虑了物品的流行度，触使算法推荐比较冷门的物品，物品的流行度越大，惩罚的力度越大
 """
-from chapter2.usercf import UserCF
+
+from use_behavior_data.usercf import UserCF
 import math
 from collections import defaultdict
 
-class UserIIF(UserCF):
+class UserIIF(UserCF): # 继承UserCF
     def train(self, origin_data, sim_matrix_path="store/useriif_sim.pkl"):
         UserCF.train(self, origin_data, sim_matrix_path=sim_matrix_path)
         

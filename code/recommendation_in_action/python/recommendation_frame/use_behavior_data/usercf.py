@@ -1,10 +1,5 @@
 #! /usr/bin/python3
 # coding=utf-8
-'''
-Created on 2018年6月12日
-
-@author: qcymkxyc
-'''
 from collections import defaultdict
 import math
 from operator import itemgetter
@@ -14,7 +9,7 @@ from util.utils import load_file,save_file
 class UserCF(object):
     """
     用户协同过滤
-    使用隐式反馈
+    使用隐式反馈,所有用户对商品的打分都是1
     """
 
     def __init__(self):
@@ -87,7 +82,7 @@ class UserCF(object):
             @param K:    查找最相似的用户个数
             @return: 商品字典 {商品 : 相似性打分情况}
         """
-        related_items = self.train.get(user,set)
+        related_items = self.train.get(user,set) # 返回指定key的value
         recommmens = dict()
         for v,sim in sorted(self.user_sim_matrix.get(user,dict).items(),
                             key = itemgetter(1),reverse = True)[:K]:

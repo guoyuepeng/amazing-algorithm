@@ -1,14 +1,9 @@
 #! /usr/bin/python3
 # coding=utf-8
-'''
-Created on 2018年6月24日
-
-@author: qcymkxyc
-'''
 """
     ITEMCF-NORM算法
 """
-from chapter2.itemcf import ItemCF
+from use_behavior_data.itemcf import ItemCF
 
 class ItemNorm(ItemCF):
     """ItemCF-Norm"""

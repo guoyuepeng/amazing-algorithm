@@ -1,6 +1,6 @@
 # coding=utf8
 
-from chapter2.usercf import UserCF
+from use_behavior_data.usercf import UserCF
 import sys
 import random
 import numpy as np

@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 #coding=utf-8
-'''
-Created on 2018年6月15日
-
-@author: qcymkxyc
-'''
-from chapter2.usercf import UserCF
+from use_behavior_data.usercf import UserCF
 from collections import defaultdict
 import math
 from operator import itemgetter
