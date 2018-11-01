@@ -76,7 +76,7 @@ class UserCF(object):
         #计算用户-用户余弦相似度
         for u,related_users in user_sim_matrix.items():
             for v,con_items_count in related_users.items():
-                user_sim_matrix[u][v] = con_items_count / math.sqrt(N[u] *  N[v])
+                user_sim_matrix[u][v] = con_items_count / math.sqrt(N[u] * N[v])
         
         return user_sim_matrix 
     
@@ -100,7 +100,7 @@ class UserCF(object):
         return dict(sorted(recommmens.items(),key = itemgetter(1),reverse = True)[ : N])
     
     def recommend_users(self,users,N,K):
-        """推荐测试集
+        """为用户推荐商品
             @param users:    用户list
             @param N:    推荐的商品个数
             @param K:    查找最相似的用户个数
