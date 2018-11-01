@@ -6,6 +6,6 @@ code/.idea/*
 code/__pycache__/*
 code/deeplearning.ai/.idea/*
 code/recommendation_in_action/python/recommendation_frame/.idea/*
-code/recommendation_in_action/python/recommendation_frame/venv/*i
+code/recommendation_in_action/python/recommendation_frame/venv/*
 code/recommendation_in_action/from-github/RecSys-master/*
 code/keras/keras-master/
