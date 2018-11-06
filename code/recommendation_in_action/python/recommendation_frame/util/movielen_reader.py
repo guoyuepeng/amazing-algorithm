@@ -33,7 +33,7 @@ def read_rating_data(path = "../../dataset/ml-1m/ratings.dat",train_rate = 1,see
             testset.append([int(user),int(movie),int(rating)])
     return trainset,testset
 
-def all_items(path = "./data/ml-1m/ratings.dat"):
+def all_items(path = "../../dataset/ml-1m/ratings.dat"):
     """返回所有的movie"""
     items = set()
     for line in loadfile(filename = path):

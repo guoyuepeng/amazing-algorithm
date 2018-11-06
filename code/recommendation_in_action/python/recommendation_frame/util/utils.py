@@ -1,10 +1,6 @@
 #! /usr/bin/python3 
 #coding=utf-8
-'''
-Created on 2018年6月13日
 
-@author: qcymkxyc
-'''
 import os
 import pickle
 

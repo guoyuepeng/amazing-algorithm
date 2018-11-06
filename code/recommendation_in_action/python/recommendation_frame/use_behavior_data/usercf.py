@@ -32,11 +32,10 @@ class UserCF(object):
             print("载入用户协同过滤矩阵失败，重新计算协同过滤矩阵",file = sys.stderr)
             # 计算用户协同矩阵
             self.user_sim_matrix = self.user_similarity()
-                
-        print("开始保存协同过滤矩阵",file = sys.stderr)
-        save_file(sim_matrix_path, self.user_sim_matrix)
-        print("保存协同过滤矩阵完成",file = sys.stderr)
-        
+            print("开始保存协同过滤矩阵",file = sys.stderr)
+            save_file(sim_matrix_path, self.user_sim_matrix)
+            print("保存协同过滤矩阵完成",file = sys.stderr)
+
     def _init_train(self,origin_data):
         """
         初始化训练集数据:dict--user,items

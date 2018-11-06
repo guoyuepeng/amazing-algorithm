@@ -56,4 +56,4 @@ def evaluate(uf,trainset,testset):
         columns=["Precision", "Recall", "Coverage", "Popularity"]
     )
 
-    results.head(10)
+    print(results.head(10))
