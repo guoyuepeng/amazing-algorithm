@@ -16,3 +16,9 @@
 - https://www.jianshu.com/p/3ad6e87f3eec
 
 - Machine Learning Essential Training：Learning to make recomnmendations  (-- adam geitgey)
+
+
+- google 大规模 CF (核心思想：将用户聚类分群)
+《Google News Personalization: Scalable Online Collaborative Filtering》
+- 推荐精准性和新资讯的冷启动 ， 贝叶斯
+《Personalized News Recommendation Based on Click Behavior》
