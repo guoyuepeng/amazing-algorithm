@@ -48,7 +48,6 @@ now = datetime.now()
 now + timedelta(hours=10)
 now + timedelta(days=1)
 
-# others:时区转换
 
 
 ##################### ipython  ######################
