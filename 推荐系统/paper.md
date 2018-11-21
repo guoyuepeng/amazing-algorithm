@@ -1,3 +1,7 @@
+https://blog.csdn.net/mycafe_/article/details/79123757
+
+
+
 - Mu Li, David G. Andersen, Alexander Smola, and Kai Yu. Communication Efficient Distributed Machine Learning with the Parameter Server. NIPS, 2014b.
 - Rich Caruana. Multitask Learning. Betascript Publishing, 1997.
 - Xiangnan He and Tat-Seng Chua. Neural Factorization Machines for Sparse Predictive Analytics. Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval(2017).

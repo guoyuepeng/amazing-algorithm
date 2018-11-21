@@ -101,3 +101,6 @@ word2vec不关心后续的应用场景，其学习到的是就是根据共现信
 
 常用的word embedding分为dense和sparse两种形式： 
 常见的sparse就比如 co-occurence 或者one-hot的形式；对sparse embedding进行一些降维运算比如SVD、PCA就可以得到dense。
+
+
+https://blog.csdn.net/rlnlo2pnefx9c/article/details/78747970?from=singlemessage

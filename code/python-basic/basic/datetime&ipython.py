@@ -53,45 +53,46 @@ now + timedelta(days=1)
 ##################### ipython  ######################
 ########### function: interactive command shell ##########
 ######################################################
-# Tab ：补全
-# ? ：显示对象的通用信息,搜索命名空间
-np. * laod *?
-# ?? : 显示源代码
-# 　%run：运行脚本
-# ctrl-c：中断执行代码
-# 　%paste：整体粘贴
-# %time:python语句执行时间(执行一次)
-# %timeit:python语句执行时间(自动执行多次，求平均时间)
-# 最近的两个输出结果保存在_,__变量中
-# %logstar:开启记录日志
-# 交互式调试器：%pdb
-# 基本性能分析：cProfile模块
-# shell：
-python - m
-cProfie - s
-cumulative
-test.py  # 输出各函数执行时间,-s cumulative:输出结果按时间排序
-# ipython:
-% prun - 1
-7 - s
-cumulative
-run_experiment()  # 分析python语句执行时间
-% run - p - s
-cumulative
-test.py
-# line_profiler模块：逐行分析
-% lprun - f
-func1
-statement_to_profile  # 需要指定函数:func1  # 重新加载模块
-reload(some_lib)
-# 实在不行，重启ipython
-# 代码设计
-# 扁平结构要比嵌套结构好
+# # Tab ：补全
+# # ? ：显示对象的通用信息,搜索命名空间
+# np. * laod *?
+# # ?? : 显示源代码
+# # 　%run：运行脚本
+# # ctrl-c：中断执行代码
+# # 　%paste：整体粘贴
+# # %time:python语句执行时间(执行一次)
+# # %timeit:python语句执行时间(自动执行多次，求平均时间)
+# # 最近的两个输出结果保存在_,__变量中
+# # %logstar:开启记录日志
+# # 交互式调试器：%pdb
+# # 基本性能分析：cProfile模块
+# # shell：
+# python - m
+# cProfie - s
+# cumulative
+# test.py  # 输出各函数执行时间,-s cumulative:输出结果按时间排序
+# # ipython:
+# % prun - 1
+# 7 - s
+# cumulative
+# run_experiment()  # 分析python语句执行时间
+# % run - p - s
+# cumulative
+# test.py
+# # line_profiler模块：逐行分析
+# % lprun - f
+# func1
+# statement_to_profile  # 需要指定函数:func1  # 重新加载模块
+# reload(some_lib)
+# # 实在不行，重启ipython
+# # 代码设计
+# # 扁平结构要比嵌套结构好
 
 
 ######### time series #########
 # TimeSeries：带有DatetimeIndex的Series
 # 时间戳存储格式：datetime64
+import pandas as pd
 pd.date_range(start='1/1/2000', end, periods=1000, freq, normalize)  # normalize=True：将日期格式规整化
 # freq:每日/每小时/每秒/每月最后一个工作日/每个月第n个星期几
 # 索引：可以按数字,日期(具体日期,年,年月),
