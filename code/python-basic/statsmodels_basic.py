@@ -3,7 +3,7 @@
 # very powerful!
 
 # Linear regression models(Quantile regression,Weighted least squares...)
-# 
+#
 
 import numpy as np
 import statsmodels.api as sm
