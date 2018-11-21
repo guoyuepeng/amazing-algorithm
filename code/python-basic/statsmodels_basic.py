@@ -3,7 +3,10 @@
 # very powerful!
 
 # Linear regression models(Quantile regression,Weighted least squares...)
-# 
+# Mixed Linear Model with mixed effects and variance components
+# GLM: Generalized linear models with support for all of the one-parameter exponential family distributions
+# Time Series Analysis: models for time series analysis(Seasonal ARIMA and ARIMAX models,Dynamic Factor models)
+# Survival analysis
 
 import numpy as np
 import statsmodels.api as sm
