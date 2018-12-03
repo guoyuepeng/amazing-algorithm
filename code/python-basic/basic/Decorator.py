@@ -14,7 +14,7 @@ def log(func):
 @log   # 相当于 now = log(now)
 def now():
     print('2015-3-25')
-now()
+now() # 执行顺序：log,wrapper,now
 
 # 如果decorator本身需要传入参数，那就需要编写一个返回decorator的高阶函数，写出来会更复杂。比如，要自定义log的文本
 def log(text):
