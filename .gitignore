@@ -10,3 +10,4 @@ code/recommendation_in_action/python/recommendation_frame/venv/*
 code/recommendation_in_action/from-github/RecSys-master/*
 code/keras/keras-master/
 code/recommendation_in_action/python/recommendation_frame/store/*
+code/pretrained-yelp.hdf5
