@@ -42,3 +42,7 @@ https://tech.meituan.com/spark-tuning-pro.html
 	- 为倾斜的Key增加前缀特殊处理
 
 https://blog.csdn.net/fl63zv9zou86950w/article/details/79049280
+
+
+- 修改用户名，获得集群运行权限
+export HADOOP_USER_NAME=""

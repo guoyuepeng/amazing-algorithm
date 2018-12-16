@@ -172,3 +172,8 @@ variable1=$(python tradedate.py 2>&1)
 利用vim打开/etc/profile文件，用export指令添加环境变量
 # 只对当前特定用户起作用
 修改个人用户主目录下的.bashrc文件
+
+清理服务器缓存(执行以下三行命令)
+echo 1 > /proc/sys/vm/drop_caches
+echo 2 > /proc/sys/vm/drop_caches
+echo 3 > /proc/sys/vm/drop_caches
