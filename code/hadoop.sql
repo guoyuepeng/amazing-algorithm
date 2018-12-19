@@ -32,3 +32,6 @@ yarn application -kill  ****
 
 search file name in hdfs
 hadoop -find [path] [expression]
+
+- 查看集群上在运行的应用
+yarn application -list
